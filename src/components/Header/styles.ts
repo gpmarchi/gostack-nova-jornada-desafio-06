@@ -20,7 +20,9 @@ export const Container = styled.div<ContainerProps>`
       a {
         color: #fff;
         text-decoration: none;
+        border-bottom: 2px solid #ff872c;
         font-size: 16px;
+        padding-bottom: 10px;
         transition: opacity 0.2s;
 
         & + a {
